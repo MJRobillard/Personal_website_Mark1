@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matthew Robillard Personal Website</title>
+    <author> Matthew Robillard</author>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="corner">
+            <ul>
+                Find Me:
+                <li><a target="_blank" href="https://github.com/RockPaperScissor26">Github</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/matthew-robillard-6723b8252">LinkedIn</a></li>
+                <li><a target="_blank" href="https://instagram.com/themattiepattie?igshid=YmMyMTA2M2Y=">Instagram</a></li>
+                <button onclick="alert('Proof')"> I can Make a button</button>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="about">
+            <h1>About Me:</h1>
+            <h2>I am a student studying Computer and Data Science at UC Berkeley!</h2>
+            <br>
+            <br>
+            <h3>Take a peak at my personal projects.</h3>
+            <h2> My Hobbies:</h3>
+            <h4> I love to skate</h4>
+            <br>
+            <br>
+            <h5> I can do a handstand</h5>
+            <br>
+            <br>
+            <h6> I can also do some magic tricks </h6>
+        </div>
+
+        <div class="work">
+            <h1>Work</h1>
+            <p>I currently work as a student document remediation specialist at UC Berkeley! Basically, I work to make Berkeley's virtual resources more accessible for its users.</p>
+        </div>
+
+        <div class="projects">
+            <h1>Personal Projects<img src="Image.png" ></h1>
+
+            <div class="project">
+                <h2>Spotify Car Radio Integration</h2>
+                <h4>My old car had a personal problem with Spotify but had no problem playing music from my iTunes. So using some libraries I found on GitHub, I wrote this to search for the songs in a playlist on Spotify in YouTube, download the audio and metadata, and put them into my iTunes.</h4>
+            </div>
+
+            <div class="project">
+                <h2>Backend in Python for Chess</h2>
+                <h4>The code knows the options for how a piece can move, what a checkmate is, who's turn it is, offers options to the user, and pretty much everything except for a decent visual display.</h4>
+            </div>
+
+            <div class="project">
+                <h2>Cal RSF Weight Room Optimization</h2>
+                <h4>I love when the weight room at the gym is nearly empty. The local gym posts a meter online showing how full it is, but they only offer a live update. So to find the best time to go to the gym, I built a web scraper using Selenium and Beautiful Soup to record live updates in a CSV every five minutes as a background process. Now I just have to let the program collect the data.</h4>
+            </div>
+
+            <div class="project">
+                <h2>Cal Clubs Ranked</h2>
+                <h4>Those hiring and new students have little reference about how prestigious a tech club at UC Berkeley is. Sure they can look at the club's website, but it's hard to compare two different clubs. This project aims to solve that problem with a comprehensive website with ranking methodology and data of the clubs here at Cal.</h4>
+            </div>
+            <div>    
+                <form>
+                    <label for="name">Username:</label>
+                    <input type="text" id="name" name="name" >
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" >
+                    <br>
+                    <input type="submit" value="submit">
+                </form>
+            <script>
+                    const form = document.querySelector('form');
+                    form.addEventListener('submit', (event) => {
+                        alert('Lovely name and password but sorta worng');
+                        });
+                    </script>
+            </div>
+        </div>
+    </main>
+</body>

@@ -1,0 +1,101 @@
+/* Body */
+body {
+    background-color: rgb(11, 4, 51);
+    color: white;
+    font: 'Open Sans', sans-serif;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(11, 4, 51);
+    border-bottom: 2px solid #e94560;
+  }
+  
+  .corner {
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  li {
+    margin: 0 10px;
+    color: palevioletred;
+
+  }
+  
+  a {
+    color: palevioletred;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: orangered;
+  }
+  
+  /* Main Sections */
+  main {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 20px;
+  }
+  
+  .about,
+  .work,
+  .projects {
+    margin-bottom: 40px;
+    position: relative;
+    padding: 20px;
+    border: 2px solid palevioletred;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight:800px;
+    width:35%;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+  
+  /* Projects */
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font: medium;
+    margin-bottom: 20px;
+  }
+  
+  /* Links */
+  a:link,
+  a:visited {
+  color: palevioletred;
+
+  }
+  
+  a:hover {
+    color: #550d19;
+  }
+  
+
+  
